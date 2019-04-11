@@ -278,6 +278,10 @@ h2 {
   padding-bottom:70px;
 }
 
+
+
+
+
 /*contact page*/
 .map-container{
   overflow:hidden;
@@ -306,7 +310,27 @@ h2 {
     top:50%;
     font-weight: bolder;
   }
+
+
+
   
+/*About Page*/
+#uncle{
+  color:white;
+  top:30%;
+  margin-left:20px;
+  /* left: 10%; */
+  font-weight: bolder;
+}
+#inner{
+  background-image: url('../img/ceo2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 360px;
+  position: relative;
+  /* text-align: center; */
+}
 
 
 @media only screen and ( max-width: 1024px )
