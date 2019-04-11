@@ -190,37 +190,12 @@ h2 {
   display: block;
 }
 
-
 .nav-tabs {
   border-bottom: none !important;
 }
-#contact{
-  background-image: url('../img/cover.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 360px;
-  position: relative;
-  text-align: center;
-}
-#if{
-  color:white;
-  top:50%;
-  font-weight: bolder;
-}
-.map-container-section {
-  overflow:hidden;
-  padding-bottom:56.25%;
-  position:relative;
-  height:0;
-}
-.map-container-section iframe {
-  left:0;
-  top:0;
-  height:100%;
-  width:100%;
-  position:absolute;
-}
+
+
+
 #shift{
   margin-top:10px;
 }
@@ -237,18 +212,18 @@ h2 {
 .menu li a {
   display: block;
 }
-#whether{
+/* #whether{
   font-size:14px;
   font-family:Roboto, sans-serif;
   font-weight:400;
-  line-height:24px;
+  line-height:24px; */
   /* color:#4f4f4f; */
 }
-#approach{
+/* #approach{
   font-family:Roboto, sans-serif;
   font-weight:500;
   line-height:24px;
-}
+} */
 #awww{
   padding-left:65px;
 }
@@ -298,10 +273,40 @@ h2 {
   left: 0.5em;
   margin-right: -50%;
 }
+#careful{
+  padding-top:45px;
+  padding-bottom:70px;
+}
 
-
-
-
+/*contact page*/
+.map-container{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+  }
+  .map-container iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+  }
+  #contact{
+    background-image: url('../img/cover.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 360px;
+    position: relative;
+    text-align: center;
+  }
+  #if{
+    color:white;
+    top:50%;
+    font-weight: bolder;
+  }
+  
 
 
 @media only screen and ( max-width: 1024px )
@@ -419,5 +424,12 @@ h2 {
 }
 #image{
   height:40vh;
+}
+#h1{
+  font-size:20px;
+}
+#careful{
+  padding-top:25px;
+  padding-bottom:50px;
 }
 }
