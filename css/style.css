@@ -333,6 +333,14 @@ h2 {
 }
 
 
+/*services*/
+#services{
+  padding-top:40px;
+}
+#shit{
+  padding-left:60px;
+}
+
 @media only screen and ( max-width: 1024px )
 {
   .nav-link:hover {
@@ -455,5 +463,15 @@ h2 {
 #careful{
   padding-top:25px;
   padding-bottom:50px;
+}
+#services{
+  padding-top:0px;
+  padding-bottom:20px;
+}
+#find{
+  margin-top:20px;
+}
+#shit{
+  padding-left:0px;
 }
 }
