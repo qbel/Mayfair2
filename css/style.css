@@ -331,7 +331,24 @@ h2 {
   position: relative;
   /* text-align: center; */
 }
-
+#kenny{
+  background-image: url('../img/okay.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 360px;
+  position: relative;
+  text-align: center;
+}
+#fine{
+  color:white;
+  /* top:70%; */
+  margin-left:45%;
+  /* left: 10%; */
+  margin-top:15%;
+  text-align: center;
+  font-weight: bolder;
+}
 
 /*services*/
 #services{
@@ -339,6 +356,33 @@ h2 {
 }
 #shit{
   padding-left:60px;
+}
+#serviceone{
+  background-image: url('../img/servicetwo.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 360px;
+  position: relative;
+  text-align: center;
+}
+
+/*Projects Page*/
+#hover:hover{
+  background-color: #fab207;;
+  /* color:white; */
+}
+/* #hover p.hover{
+  color:white;
+} */
+#project{
+  background-image: url('../img/project.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 360px;
+  position: relative;
+  text-align: center;
 }
 
 @media only screen and ( max-width: 1024px )
@@ -473,5 +517,14 @@ h2 {
 }
 #shit{
   padding-left:0px;
+}
+#fine{
+  color:white;
+  /* top:70%; */
+  margin-left:40%;
+  /* left: 10%; */
+  margin-top:40%;
+  text-align: center;
+  font-weight: bolder;
 }
 }
