@@ -274,7 +274,7 @@ h2 {
   margin-right: -50%;
 }
 #careful{
-  padding-top:45px;
+  padding-top:40px;
   padding-bottom:70px;
 }
 
@@ -385,6 +385,30 @@ h2 {
   text-align: center;
 }
 
+
+/* Blog */
+.blog{
+  cursor: pointer;
+  padding: 12px 16px;
+  font-weight:bolder;
+}
+
+/* Add an orange background color on mouse-over */
+.blog a:hover {
+  color:#ffa500 !important;
+  
+}
+
+#blog{
+  background-image: url('../img/blogone.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 360px;
+  position: relative;
+  text-align: center;
+}
+
 @media only screen and ( max-width: 1024px )
 {
   .nav-link:hover {
@@ -428,6 +452,9 @@ h2 {
     margin: 0;
   }
   .offset-2{
+    margin: 0;
+  }
+  .offset-3{
     margin: 0;
   }
   #now{
