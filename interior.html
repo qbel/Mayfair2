@@ -18,16 +18,6 @@
   <link href="css/style.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.css" />
   <link rel="shortcut icon" type="image/png" href="img/fav.png"/>
-  <style>
-  /* Content */
-  .content {
-    background-color: white;
-    padding: 10px;
-  }
-  .blog a:hover {
-    color:#ffa500 !important;}
-  
-  </style>
 </head>
 
 <body>
@@ -60,7 +50,7 @@
                 <a class="nav-link" href="about.html">ABOUT</a>
             </li>
             <li class="nav-item" id="list">
-                <a class="nav-link" href="services.html">SERVICES</a>
+                <a class="nav-link" href="services.html" style="border-bottom:2px solid #fab20f">SERVICES</a>
             </li>
             <li class="nav-item" id="list">
                 <a class="nav-link" href="projects.html">PROJECTS</a>
@@ -69,102 +59,82 @@
                 <a class="nav-link" href="https://shop.mayfair.ng/" style="background-color:#FAB207;padding:10px">SHOP</a>
             </li>
             <li class="nav-item " id="list">
-                <a class="nav-link" href="blog.html" style="border-bottom:2px solid #fab20f">INSPIRATION</a>
+                <a class="nav-link" href="blog.html">INSPIRATION</a>
             </li>
             <li class="nav-item" id="list">
                 <a class="nav-link" href="contact.html">CONTACT</a>
             </li>
+            <!-- <li class="nav-item  pr-5" id="list">
+                <a class="nav-link" href="#">FAQ</a>
+            </li> -->
         </ul>
       </div>
     </nav>
-    <div class="row p-0 m-0" id="blog">
-        <h1 id="fine">BLOG</h1>
-      </div>
-    <!-- <div class="text-center mt-5">
-        <h1 class="font-weight-bold"> Latest Articles</h1>
-      </div> -->
-      <div id="myBtnContainer" style="text-align:center" class="mt-5 mb-3 blog">
-          <!-- <button class="btn active" onclick="filterSelection('all')"> All Articles</button> -->
-          <!-- <p class="active" onclick="filterSelection('all')">All Projects</p> -->
-          <!-- <button class="btn" onclick="filterSelection('commercial')"> Commercial</button>
-          <button class="btn" onclick="filterSelection('Architecture')"> Architecture</button>
-          <button class="btn" onclick="filterSelection('residential')"> Residential</button>
-          <button class="btn" onclick="filterSelection('planning')"> Planning</button> -->
-  
-          <a class="blog active" onclick="filterSelection('all')" > All Articles</a>
-          <a class="blog" onclick="filterSelection('commercial')">Commercial</a>
-          <a class="blog" onclick="filterSelection('Architecture')"> Architecture</a>
-          <a class="blog" onclick="filterSelection('residential')"> Residential</a>
-          <a class="blog" onclick="filterSelection('planning')"> Planning</a>
-      </div>
-      <div class="container mb-5">
-        <div class="row new" id="newest">
-            <div class="column Architecture">
-              <div class="content">
-                <a href="blogone.html" class="">
-                  <img src="img/four.jpg" alt="Mountains" style="width:100%">
-                  <h5 class="mt-4 font-weight-bold" id="heading">Ashortlisted at Archiboo Awards</h5>
-                  <p style="font-size:13px">08th April, 2019 / Architecture</p>
-                </a>
-              </div>
+    <div class="container">
+        <div class="col-md-12 text-center mt-5">
+            <h1 class="font-weight-bold h1-responsive">INTERIOR DESIGN</h1>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-5 offset-1" id="services" >
+                <h3 class="pt-5 font-weight-bold h3-responsive">Interior Design</h3>
+                <p>Ideal Design Interior provides additions and alterations or reconstruction to your homes and apartments to enhance your living environment.</p>
             </div>
-            <div class="column commercial">
-              <div class="content">
-                <a href="#" >
-                  <img src="img/six.jpg" alt="Car" style="width:100%">
-                  <h5 class="mt-4 font-weight-bold"id="heading">Deliver New Retail scheme for Greenland Group</h5>
-                  <p style="font-size:13px">08th April, 2019 / Commercial</p>
-                </a>
-              </div>
+            <div class="col-md-6" id="find">
+                <img src="img/pf-1.jpg" class="img-fluid">
             </div>
-            <div class="column residential">
-              <div class="content">
-                <a href="#">
-                  <img src="img/four.jpg" alt="office" style="width:100%">
-                  <h5 class="mt-4 font-weight-bold"id="heading">Residential</h5>
-                  <p style="font-size:13px">08th April, 2019 / Residential</p>
-                </a>
-              </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-md-6" id="find">
+                <img src="img/pf-71.jpg" class="img-fluid">
             </div>
-            <div class="column Architecture">
-                <div class="content">
-                  <a href="#">
-                    <img src="img/three.jpg" alt="Lights" style="width:100%">
-                    <h5 class="mt-4 font-weight-bold" id="heading">Five Facts to celebrate the official Opening</h5>
-                    <p style="font-size:13px">08th April, 2019 / Architecture</p>
-                  </a>
-                </div>
-              </div>
-            
-            <div class="column residential">
-              <div class="content">
-                <a href="#" >
-                  <img src="img/two.jpg" alt="residential" style="width:100%">
-                  <h5 class="mt-4 font-weight-bold" id="heading">Residential</h5>
-                  <p style="font-size:13px">08th April, 2019 / Residential</p>
-                </a>
-              </div>
+            <div class="col-md-6" id="services" style="">
+                <h3 class="pt-5 font-weight-bold h3-responsive">Exterior Design</h3>
+                <p>Our projects are international in scope and range from offices to stores, academic and civic buildings, convention centers and entertainment and cultural venues.</p>
             </div>
-            <div class="column planning">
-              <div class="content">
-                <a href="#" >
-                  <img src="img/five.jpg" alt="interior" style="width:100%">
-                  <h5 class="mt-4 font-weight-bold" id="heading">The Celestial Beauty of Healing</h5>
-                  <p style="font-size:13px">08th April, 2019 / Planning</p>
-                </a>
-              </div>
+        </div>
+        <div class="row mt-3 mb-3">
+            <div class="col-md-5 offset-1" id="services" style="">
+                <h3 class="pt-5 font-weight-bold h3-responsive">Architectual Design</h3>
+                <p>All Construction works will be provided accordingly to the necessary requirements from new urban districts and developments to suburban and exurban centers.</p>
             </div>
-          <!-- END GRID -->
-          </div>
-      </div>
+            <div class="col-md-6" id="find">
+                <img src="img/pf-1.jpg" class="img-fluid">
+            </div>
+        </div>
+        <div class="row mt-3">
+                <div class="col-md-6" id="find">
+                        <img src="img/pf-71.jpg" class="img-fluid">
+                    </div>
+            <div class="col-md-5 offset-1" id="services" style="">
+                <h3 class="pt-5 font-weight-bold h3-responsive">Planning</h3>
+                <p>Our projects are international in scope and range from offices to stores, academic and civic buildings, convention centers and entertainment and cultural venues.</p>
+            </div>
+           
+        </div>
+        <div class="row mt-3 mb-5">
+            <div class="col-md-8" id="shit">
+                <h3 class="pt-5 font-weight-bold h3-responsive">How much will my next project cost?</h3>
+                <p>Request a call back and we will contact you. Our specialists will make an estimate for free and or designers will discuss all necessary details with you.</p>
+            </div>
+            <div class="col-md-4 mt-5">
+                <form id="contact-form" name="contact-form" action="" method="POST">
+                    <!-- Phone number -->
+                    <div class="md-form">
+                        <input type="password" id="materialRegisterFormPhone" class="form-control" aria-describedby="materialRegisterFormPhoneHelpBlock">
+                        <label for="materialRegisterFormPhone">Phone number</label>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
 
 
 
+     <footer class="page-footer font-small elegant-color-dark" >
 
-
-    <footer class="page-footer font-small elegant-color-dark" >
         <div style="background-color:#FAB207">
           <div class="container">
+    
             <!-- Grid row-->
             <div class="row py-4 d-flex align-items-center">
     
@@ -313,7 +283,3 @@
 </body>
 
 </html>
-
-
-
-

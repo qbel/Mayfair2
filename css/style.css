@@ -50,9 +50,9 @@
   margin-right:90px;
   margin-top:30px;
  }
- #display{
+ /* #display{
    display: none;
- }
+ } */
 /* #now{
     position: absolute;
     right: 20px;
@@ -301,7 +301,7 @@ h2 {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 360px;
+    height: 300px;
     position: relative;
     text-align: center;
   }
@@ -310,14 +310,17 @@ h2 {
     top:50%;
     font-weight: bolder;
   }
-
+  #newest{
+    margin-left:80px;
+    margin-right:100px;
+}
 
 
   
 /*About Page*/
 #uncle{
   color:white;
-  top:30%;
+  top:10%;
   margin-left:20px;
   /* left: 10%; */
   font-weight: bolder;
@@ -327,7 +330,7 @@ h2 {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 360px;
+  height: 300px;
   position: relative;
   /* text-align: center; */
 }
@@ -336,7 +339,7 @@ h2 {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 360px;
+  height: 300px;
   position: relative;
   text-align: center;
 }
@@ -345,7 +348,7 @@ h2 {
   /* top:70%; */
   margin-left:45%;
   /* left: 10%; */
-  margin-top:15%;
+  margin-top:10%;
   text-align: center;
   font-weight: bolder;
 }
@@ -362,29 +365,32 @@ h2 {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 360px;
+  height: 300px;
   position: relative;
   text-align: center;
 }
 
 /*Projects Page*/
 #hover:hover{
-  background-color: #fab207;;
+  background-color: #fab207;
   /* color:white; */
 }
 /* #hover p.hover{
   color:white;
 } */
 #project{
-  background-image: url('../img/project.jpg');
+  background-image: url('../img/projectone.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 360px;
+  height: 300px;
   position: relative;
   text-align: center;
 }
-
+#card .active{
+  background-color: #fab207;
+  color:black;
+}
 
 /* Blog */
 .blog{
@@ -404,7 +410,7 @@ h2 {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 360px;
+  height: 300px;
   position: relative;
   text-align: center;
 }
@@ -522,9 +528,9 @@ h2 {
   max-width: 100%;
   height: 40vh;
 }
-#display{
+/* #display{
   display: none;
-}
+} */
 #image{
   height:40vh;
 }
@@ -558,5 +564,15 @@ h2 {
   cursor: pointer;
   padding: 6px 9px;
   font-weight:bolder;
+}
+#smaller{
+  padding:10px;
+}
+#num{
+  padding-left:15px;
+}
+#newest{
+  margin-left:0px;
+  margin-right:0px;
 }
 }
