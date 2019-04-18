@@ -314,7 +314,9 @@ h2 {
     margin-left:80px;
     margin-right:100px;
 }
-
+/* .navbar .btn-button .dropdown-menu a:hover{
+  color: #000 !important;
+} */
 
   
 /*About Page*/
@@ -360,6 +362,9 @@ h2 {
 #shit{
   padding-left:60px;
 }
+#shit2{
+  padding-left:10px;
+}
 #serviceone{
   background-image: url('../img/servicetwo.jpg');
   background-size: cover;
@@ -390,6 +395,33 @@ h2 {
 #card .active{
   background-color: #fab207;
   color:black;
+}
+#connect{
+  background-image: url('../img/banner/bannerfour.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 300px;
+  position: relative;
+  text-align: center;
+}
+#job{
+  background-image: url('../img/banner/bannerthree.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 300px;
+  position: relative;
+  text-align: center;
+}
+#redson{
+  background-image: url('../img/banner/bannerone.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 300px;
+  position: relative;
+  text-align: center;
 }
 
 /* Blog */
@@ -549,6 +581,9 @@ h2 {
   margin-top:20px;
 }
 #shit{
+  padding-left:0px;
+}
+#shit2{
   padding-left:0px;
 }
 #fine{
