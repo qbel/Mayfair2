@@ -1,6 +1,7 @@
 /* html, body {
   height: 100%;
 } */
+
 #list{
   padding-right: 15px;
   padding-left: 15px;
@@ -383,6 +384,7 @@ h2 {
 /* #hover p.hover{
   color:white;
 } */
+
 #project{
   background-image: url('../img/projectone.jpg');
   background-size: cover;
@@ -446,6 +448,14 @@ h2 {
   position: relative;
   text-align: center;
 }
+
+
+
+
+
+
+
+
 
 @media only screen and ( max-width: 1024px )
 {
